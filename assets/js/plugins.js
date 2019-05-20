@@ -1,5 +1,5 @@
 import "./plugins/jquery.meanMenu"
-import "./jquery.scrollUp"
+import "./plugins/jquery.scrollUp"
 import "slick-carousel"
 import "owl.carousel2"
 import "./plugins/imagesloaded.pkgd"
