@@ -1,8 +1,6 @@
 (function($) {
     'use strict';
 
-    console.log('x');
-
     $('nav.mobilemenu__nav').meanmenu({
         meanMenuClose: 'X',
         meanMenuCloseSize: '18px',
