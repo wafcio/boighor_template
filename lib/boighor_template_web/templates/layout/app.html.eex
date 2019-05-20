@@ -15,7 +15,11 @@
   </head>
   <body>
     <%= render BoighorTemplateWeb.SharedView, "unsupported_browser.html", assigns %>
-    <%= render @view_module, @view_template, assigns %>
+    <div class="wrapper" id="wrapper">
+        <%= render @view_module, @view_template, assigns %>
+        <%= render BoighorTemplateWeb.SharedView, "search_popup.html", assigns %>
+        <%= render BoighorTemplateWeb.SharedView, "footer.html", assigns %>
+    </div>
     <script type="text/javascript" src="<%= Routes.static_path(@conn, "/js/app.js") %>"></script>
   </body>
 </html>
