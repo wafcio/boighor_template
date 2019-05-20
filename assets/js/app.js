@@ -15,3 +15,9 @@ import "phoenix_html"
 //
 // Local files can be imported directly using relative paths, for example:
 // import socket from "./socket"
+
+import "jquery";
+import "popper.js";
+import "bootstrap";
+import "./plugins";
+import "./active";
