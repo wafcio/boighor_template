@@ -1,3 +1,4 @@
+import "./plugins/jquery.meanMenu"
 import "./jquery.scrollUp"
 import "slick-carousel"
 import "owl.carousel2"

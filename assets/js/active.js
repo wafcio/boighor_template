@@ -1,4 +1,5 @@
 import "./active/scroll_up_activation"
+import "./active/mobile_menu"
 import "./active/sticky_header"
 import "./active/product_activation"
 import "./active/cart_toggler"
