@@ -1,0 +1,3 @@
+<header id="wn__header" class="header__area header__absolute sticky__header">
+    <%= render BoighorTemplateWeb.SharedView, "header_container.html", assigns %>
+</header>
